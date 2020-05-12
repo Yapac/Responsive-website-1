@@ -1,0 +1,71 @@
+@font-face{
+    src: url("f/Zector.otf");
+    font-family: Zector;
+}
+@font-face{
+    src: url("f/FUTRFW.TTF");
+    font-family: futur;
+}
+.Logo{
+    background: url("p/BG1.png");
+}
+.Logo h1{
+    border-bottom: 2px solid white;
+    font-size: 10vmax;
+}
+.Logo p{
+    font-size: 1.5vmax;
+    font-family: 'futur';
+}
+header nav{
+    font-size: 1.3em;
+}
+header a:hover{
+    border-bottom: 2px solid rgb(102, 102, 102);
+}
+.margin-up{
+    margin-top: 60px;
+}
+.title{
+    font-size: 4em;
+    font-family:'Zector';
+}
+#love:hover{
+    text-shadow: 0px 0px 10px #f52a14;
+
+}
+#create:hover{
+    text-shadow: 0px 0px 10px deepskyblue;
+
+}
+#shine:hover{
+    text-shadow: 0px 0px 10px yellow;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.card{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+} 
+
+#clove:hover{
+    border-top: 4px solid #f52a14 ;
+}
+#ccreate:hover{
+    border-top: 4px solid deepskyblue ;
+} 
+#cshine:hover{
+    border-top: 4px solid rgb(243, 243, 0) ;
+} 
+.bg-white{
+    background:linear-gradient();
+}
+footer{
+    background-color: rgb(19, 37, 53);
+    color: white;
+    margin-top: 40px;
+}
+footer p{
+    margin: 0;
+}

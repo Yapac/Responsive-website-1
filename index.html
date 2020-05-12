@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="container-fluid bg-dark margin-up">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top ">
+            <a href="" class="navbar-brand">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#contactus" class="nav-link">CONTACT US</a></li>
+                    <li class="nav-item"><a  class="nav-link" data-toggle="modal" data-target="#help">HELP</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="Logo p-5">
+            <h1 class="text-center text-white">WELCOME</h1>
+            <p class="font-weight-bold text-center text-white">"LOVE,CREATE,SHINE"</p>
+        </div>
+    </header>
+    <section class="container" id="home">
+        <div class="row p-5">
+            <div class="col-lg">
+                <div class="card bg-light" id="clove">
+                    <h2 class="card-title p-2 text-center" id="love">Love</h2>
+                    <img src="p/love.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>
+                            First you need to find your intrest and the things that you love.<br>
+                            We can help you to find out.
+                        </p>
+                        <button class="btn btn-danger" data-target="#demo" data-toggle="modal">Find what you love</button>
+                    </div>
+                </div>
+            </div>   
+            <div class="col-lg">
+                <div class="card bg-light" id="ccreate">
+                    <h2 class="card-title p-2 text-center" id="create">Create</h2>
+                    <img src="p/create.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>
+                            After that you found what you love Congratulation!<br>
+                            Now let making you start.
+                        </p>
+                        <button class="btn btn-primary" data-target="#demo" data-toggle="modal">Start creating</button>
+                    </div>
+                </div>
+            </div>         
+            <div class="col-lg">
+                <div class="card bg-light" id="cshine">
+                    <h2 class="card-title p-2 text-center" id="shine">Shine</h2>
+                    <img src="p/shine.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>
+                            After creating your work you make the world know it.<br>
+                            We can promote your work.
+                        </p>
+                        <button class="btn btn-warning text-white" data-target="#demo" data-toggle="modal">Shine your work</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div  id="about"></div>
+    <section class="container margin-up">
+    <row class="row" >
+        <div class="col-lg">
+            <h3 class="title">About</h3>
+            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+                 Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme 
+                 assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait 
+                 que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en 
+                 soit modifié.<br>
+                  Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum,
+                   et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+        </div>
+        <div class="col-lg">
+            <h3 class="title">Our service</h3>
+            <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans
+                 une oeuvre de la littérature latine classique datant de 45 av. J.-C.<br>
+                  le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins
+                   les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la
+                    littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et
+                     1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très
+                      populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum,
+                       "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.</p>
+        </div>
+    </row>
+    <row class="row">
+        <div class="col-lg">
+            <div id="slider" class="carousel slide" data-ride="carousel">
+
+                <ul class="carousel-indicators">
+                    <li dara-target="#slider" data-slide-to="0" class="active"></li>
+                    <li dara-target="#slider" data-slide-to="1"></li>
+                    <li dara-target="#slider" data-slide-to="2"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="p/slider_0.jpg" alt="About1" height="800" width="1200"> 
+                    </div>   
+                    <div class="carousel-item">
+                        <img src="p/slider_1.jpg" alt="About2" height="800" width="1200">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="p/slider_2.jpg" alt="About3" height="800" width="1200">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#slider" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#slider" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+            </div>
+        </div>
+    </row>
+    </section>
+    <section class="container margin-up bg-dark" id="contactus">
+        <div class="text-white bg-dark btn-block p-3">
+            <p style="display: inline;font-size: 6vmax;">Contact us</p>
+        </div>
+        <form action="#demo" class="text-white needs-validation p-5">
+            <div class="row">
+                <div class="col-lg form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="emal" id="email" class="form-control" placeholder="Enter email" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="col-lg">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="" class="form-control" placeholder="Enter password" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+            </div>     
+            <div class="row text-left">
+                <div class="col-lg form-group">
+                    <label for="Subject">Subject:</label>
+                    <input type="text" name="subject" class="form-control" placeholder="Enter subject">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="comment" class="form-control" placeholder="Your message" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg form-group">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="RememberMe">
+                        <label class="custom-control-label" for="RememberMe">Remember me</label>
+                      </div>
+                   <button type="submit" class="btn btn-success btn-block" data-toggle="modal" data-target="#demo">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer div="container-fluid" style="  background-color: rgb(19, 37, 53);">
+         <p class=" text-center p-5"> &#169; 2020 YapacDev. All Rights Reserved.</p>
+    </footer>
+    <!--Modals-->
+      <div class="modal fade" id="demo">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Empty</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              It's just a demo..
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="help">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">HELP</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                This is a static Website are just a template,so it isn't linked to a database or to the web.
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+</body>
+</html>
